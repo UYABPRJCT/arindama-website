@@ -295,7 +295,6 @@ section {
   transform: scale(1.08);
 }
 .service-icon {
-  transition: 0.3s ease;
   width: 58px;
   height: 58px;
 
@@ -309,9 +308,12 @@ section {
   margin-bottom: 25px;
 
   box-shadow: 0 10px 25px rgba(31, 59, 91, 0.15);
+
+  transition: 0.3s ease;
 }
+
 .service-icon i {
-  font-size: 26px;
+  font-size: 25px;
   color: #ffffff;
 }
 /* TITLE */
