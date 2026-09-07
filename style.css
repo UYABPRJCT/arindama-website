@@ -260,6 +260,7 @@ section {
 /* CARD */
 
 .service-card {
+  transition: 0.3s ease;
   position: relative;
   padding: 35px;
   background: #ffffff;
@@ -289,8 +290,12 @@ section {
 }
 
 /* ICON */
-
+.service-card:hover .service-icon {
+  background: #e52427;
+  transform: scale(1.08);
+}
 .service-icon {
+  transition: 0.3s ease;
   width: 58px;
   height: 58px;
 
