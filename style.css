@@ -291,19 +291,24 @@ section {
 /* ICON */
 
 .service-icon {
-  width: 55px;
-  height: 55px;
+  width: 58px;
+  height: 58px;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background: #1f3b5b;
+  border-radius: 16px;
+
   margin-bottom: 25px;
 
-  background: #12345b;
-  border-radius: 14px;
-
-  font-size: 25px;
+  box-shadow: 0 10px 25px rgba(31, 59, 91, 0.15);
 }
-
+.service-icon i {
+  font-size: 26px;
+  color: #ffffff;
+}
 /* TITLE */
 
 .service-card h3 {
